@@ -4,16 +4,16 @@ var tens = 0
 var counterTens = document.getElementById('tensCounter')
 var counterSeconds = document.getElementById('secondsCounter')
 
-getStarted = function() {
+getStarted = function() { // Disparado ao iniciar o cronômetro
     clearInterval(Interval)
     Interval = setInterval(countTime, 10)
 }
 
-pause = function() {
+pause = function() { // Disparado ao pausar o cronômetro
     clearInterval(Interval)
 }
 
-reset = function() {
+reset = function() { // Disparado ao resetar o cronômetro
     clearInterval(Interval)
     tens = 0
     seconds = 0
@@ -21,7 +21,7 @@ reset = function() {
     counterTens.innerText = '00'
 }
 
-countTime = function() {
+countTime = function() { // Conta o tempo
     tens++
     
     if (tens <= 9) {
