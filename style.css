@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+:root {
+    --cor0: rgb(105, 204, 174);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+div#geralCounter {
+    font-size: 80px;
+    font-family: 'Gemunu Libre', Arial, sans-serif;
+    color: #fff;
+
+    padding-bottom: 30px;
+}
+
+.botao {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border: 0px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+
+    width: 100px;
+    text-align: center;
+
+    margin-right: 20px;
+
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+}
+
+footer {
+    color: #417F6C;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: wheat;
+    font-size: 110%;
+}
